@@ -48,3 +48,9 @@ Final model score on competition test dataset (submission.csv): 0.977
 
 ```bash
 pip install -r requirements.txt
+
+2. Open the notebook:
+
+```bash
+jupyter notebook notebooks/housing_final.ipynb
+
