@@ -22,19 +22,30 @@ Build a classification model that predicts the `Expensive` target variable from 
 - Train/test evaluation
 - Overfitting check
 
-## Best Model
-
-The best performing model was Random Forest.
-
 ## Metrics
-
-Final model score on competition test dataset (submission.csv): 0.977
 
 | Model | Accuracy | Recall | Precision | F1 Score | Balanced Accuracy |
 |---|---:|---:|---:|---:|---:|
 | Decision Tree | 0.938 | 0.729 | 0.875 | 0.795 | 0.854 |
 | KNN | 0.942 | 0.688 | 0.943 | 0.795 | 0.840 |
 | Random Forest | 0.955 | 0.750 | 0.973 | 0.847 | 0.873 |
+
+## Best Model
+
+Random Forest was selected as the final model because it achieved the best test-set accuracy, F1 score, and balanced accuracy among the tested models.
+
+## Final Result
+
+The final Random Forest model achieved:
+
+- Accuracy: 0.955
+- Recall: 0.750
+- Precision: 0.973
+- F1 Score: 0.847
+- Balanced Accuracy: 0.873
+
+Competition submission score: 0.977
+
 
 ## Files
 
